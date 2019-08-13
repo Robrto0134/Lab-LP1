@@ -31,5 +31,5 @@ using namespace std;
         return telefone;
     }
     Endereco Pessoa::getEndereco(){
-       return endereco;
+    	return endereco;
     }
