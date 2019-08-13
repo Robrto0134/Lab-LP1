@@ -8,19 +8,19 @@ using namespace std;
         setNome(n);
     }
 
-    Pessoa::Pessoa(string n, Endereco e, string t){
+    Pessoa::Pessoa(string n, Endereco end, string tel){
         setNome(n);
-        setEndereco(e);
-        setTelefone(t);
+        setEndereco(end);
+        setTelefone(tel);
     }
 
     void Pessoa::setNome(string n){
         nome = n;
     }
-    void Pessoa::setTelefone(string t){
-        telefone = t;
+    void Pessoa::setTelefone(string tel){
+        telefone = tel;
     }
-    void Pessoa::setEndereco(Endereco e){
+    void Pessoa::setEndereco(Endereco end){
         endereco = e;
     }
 
